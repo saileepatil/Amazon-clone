@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#navbar-head{
+    background-color: #0f1111;
+    width: 100vmax;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 160px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.logo:hover{
+    border: 1px solid white;
+}
+#nav-address .addres-1{
+    color: white;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.addres-2{
+    display: flex;
+    color: white;
+}
+.add2-style{
+    margin-left: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+#nav-address:hover{
+    border: 1px solid white;
+} 
+#nav-info{
+    display: flex;
+    height: 30px;
+    background-color: rgb(241, 139, 21);
+    width: 800px;
+    border-radius: 3px;
+    height: 40px;
+  
+}
+
+.nav-info-1{
+    color: #0f1111;
+    width: 50px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: whitesmoke;
+    
+}
+.nav-info-2{
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    padding-right: 60px;
+}
+.nav-info-3{
+    outline: none;
+    border: none;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #0f1111;
+  width: 45px;
+}
+#sign{
+    color: white;
+}
+.sign1{
+    font-size: 15px;
+
+}
+.sign2{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#sign:hover{
+    border: 1px solid white;
+
+}
+
+#Retun-order{
+color: white;
+
+}
+.return{
+    font-size: 15px;
+}
+.order{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#Retun-order:hover{
+    border: 1px solid white;
+
+}
+#order{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.icon-sho{
+    font-size: 30px;
+}
+.order-text{
+    font-size: 15px;
+}
+
+#order:hover{
+    border: 1px solid white;
+
+}
+
+@media(max-width: 500px){
+    #nav-address{
+        display: none;
+    }
+    #sign{
+        display: none;
+    }
+    #Retun-order{
+        display: none;
+    }
+    .icon-sho{
+        font-size: larger;
+    }
+}
